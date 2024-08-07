@@ -1,1 +1,42 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    background-color: rgb(65, 65, 70);
+
+  
+}
+header,
+main,
+footer{
+    background-color: cornsilk;
+    margin: 0 auto;
+    max-width: 8in;
+    text-align: center;
+    
+}
+#mainHeading {
+    color: red;
+    text-align: center;
+}
+
+.funParagraph {
+    color: green;
+    font-style: italic;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: .5em;
+    font-size: .75em;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    color: green;
+}
